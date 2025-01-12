@@ -1,16 +1,16 @@
 variable "ami_id" {
     description = "inserting ami value to maint.tf"
     type = string
-    default = ""
+    default = "ami-07b69f62c1d38b012"
   
 }
 variable "type" {
     type = string
-    default = ""
+    default = "t2.micro"
   
 }
 variable "keyname" {
     type = string
-    default = ""
+    default = "testkeypair"
   
 }
